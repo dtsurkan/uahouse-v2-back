@@ -8,7 +8,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "format": "prettier --write . --config ./.prettierrc"
   },
   "keywords": [
     "sanity"
@@ -27,7 +28,9 @@
     "react-dom": "^17.0",
     "styled-components": "^5.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dtsurkan/uahouse-v2-back.git"
