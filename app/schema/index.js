@@ -3,6 +3,13 @@ import createSchema from 'part:@sanity/base/schema-creator';
 
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type';
+import HomePage from './single-document/HomePage';
+import IntroSlider from './objects/sections/HomePage/IntroSlider';
+
+import BasicLink from './objects/shared/BasicLink';
+import Picture from './objects/shared/Picture';
+import Typography from './objects/shared/Typography';
+import IntroSliderCard from './objects/shared/cards/IntroSliderCard';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -12,5 +19,11 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
+    HomePage,
+    IntroSlider,
+    IntroSliderCard,
+    Picture,
+    Typography,
+    BasicLink,
   ]),
 });

@@ -17,6 +17,10 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "app/schema"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "app/structure/parts/desk"
     }
   ]
 }
