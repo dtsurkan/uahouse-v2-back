@@ -10,6 +10,8 @@ import BasicLink from './objects/shared/BasicLink';
 import Picture from './objects/shared/Picture';
 import Typography from './objects/shared/Typography';
 import IntroSliderCard from './objects/shared/cards/IntroSliderCard';
+import ActivityCard from './objects/shared/cards/ActivityCard';
+import Activities from './objects/sections/HomePage/Activities';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,7 +23,9 @@ export default createSchema({
     /* Your types here! */
     HomePage,
     IntroSlider,
+    Activities,
     IntroSliderCard,
+    ActivityCard,
     Picture,
     Typography,
     BasicLink,
