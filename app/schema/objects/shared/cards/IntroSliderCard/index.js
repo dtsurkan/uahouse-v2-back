@@ -52,6 +52,13 @@ export default {
       type: 'string',
       hidden: ({ parent }) => parent?.backgroundType === 'image',
     },
+    {
+      title: 'Background mobile image instead of video',
+      name: 'mobileVideoPlaceholder',
+      type: 'picture',
+      description: "For mobile, because video won't be on mobile",
+      hidden: ({ parent }) => parent?.backgroundType === 'image',
+    },
   ],
   preview: {
     select: {
