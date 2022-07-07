@@ -23,5 +23,10 @@ export default {
       type: 'intro-slider',
       title: 'Intro Slider',
     },
+    {
+      title: 'Activities Section',
+      name: 'activitiesSection',
+      type: 'activities',
+    },
   ],
 };
