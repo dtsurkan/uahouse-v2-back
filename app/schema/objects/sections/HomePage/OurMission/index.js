@@ -8,7 +8,6 @@ export default {
       type: 'typography',
       title: 'Title Settings',
     },
-
     {
       name: 'suptitle',
       type: 'typography',

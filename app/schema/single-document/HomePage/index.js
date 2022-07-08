@@ -33,5 +33,10 @@ export default {
       name: 'ourMissionSection',
       type: 'our-mission',
     },
+    {
+      title: 'Donation Methods Section',
+      name: 'donationMethodsSection',
+      type: 'donation-methods',
+    },
   ],
 };
