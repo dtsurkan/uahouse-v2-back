@@ -15,6 +15,7 @@ import Typography from './objects/shared/Typography';
 import IntroSliderCard from './objects/shared/cards/IntroSliderCard';
 import ActivityCard from './objects/shared/cards/ActivityCard';
 import PortableText from './objects/shared/PortableText';
+import DonationMethods from './objects/sections/HomePage/DonationMethods';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -28,6 +29,7 @@ export default createSchema({
     IntroSlider,
     Activities,
     OurMission,
+    DonationMethods,
     IntroSliderCard,
     ActivityCard,
     Picture,
