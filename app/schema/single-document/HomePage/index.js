@@ -28,5 +28,10 @@ export default {
       name: 'activitiesSection',
       type: 'activities',
     },
+    {
+      title: 'Our Mission Section',
+      name: 'ourMissionSection',
+      type: 'our-mission',
+    },
   ],
 };
