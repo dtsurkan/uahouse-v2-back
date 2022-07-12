@@ -8,6 +8,7 @@ import HomePage from './single-document/HomePage';
 import IntroSlider from './objects/sections/HomePage/IntroSlider';
 import Activities from './objects/sections/HomePage/Activities';
 import OurMission from './objects/sections/HomePage/OurMission';
+import AidRoadmap from './objects/sections/HomePage/AidRoadmap';
 
 import BasicLink from './objects/shared/BasicLink';
 import Picture from './objects/shared/Picture';
@@ -16,6 +17,7 @@ import IntroSliderCard from './objects/shared/cards/IntroSliderCard';
 import ActivityCard from './objects/shared/cards/ActivityCard';
 import PortableText from './objects/shared/PortableText';
 import DonationMethods from './objects/sections/HomePage/DonationMethods';
+import AidRoadmapTab from './objects/shared/tabs/AidRoadmapTab';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -28,10 +30,12 @@ export default createSchema({
     HomePage,
     IntroSlider,
     Activities,
+    AidRoadmap,
     OurMission,
     DonationMethods,
     IntroSliderCard,
     ActivityCard,
+    AidRoadmapTab,
     Picture,
     Typography,
     BasicLink,
