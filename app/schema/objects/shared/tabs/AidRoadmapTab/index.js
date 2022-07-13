@@ -18,8 +18,8 @@ export default {
     },
     {
       name: 'label',
-      type: 'typography',
-      title: 'Tab label Settings',
+      type: 'string',
+      title: 'Tab label',
       hidden: ({ parent }) => parent?.contentType === 'image',
     },
     {
@@ -35,7 +35,7 @@ export default {
       hidden: ({ parent }) => parent?.contentType === 'text',
     },
     {
-      name: 'tabConent',
+      name: 'tabContent',
       type: 'typography',
       title: 'Tab Content Settings',
     },
@@ -52,7 +52,7 @@ export default {
   ],
   preview: {
     select: {
-      title: 'label.text',
+      title: 'label',
       media: 'tabImage',
     },
   },
