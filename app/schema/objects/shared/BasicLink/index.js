@@ -5,21 +5,13 @@ export default {
   fields: [
     {
       name: 'typography',
-      type: 'typography',
-      title: 'Link Typography Settings',
+      type: 'string',
+      title: 'Link Typography',
     },
     {
       title: 'Link Href',
       name: 'href',
       type: 'string',
     },
-    // {
-    //   title: 'Is Prefetch Link?',
-    //   name: 'isPrefetchLink',
-    //   description:
-    //     'You can turn off/turn on prefetching of link. It is better for performance but worse navigate between pages',
-    //   type: 'boolean',
-    //   initialValue: true,
-    // },
   ],
 };

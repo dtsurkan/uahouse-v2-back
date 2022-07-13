@@ -27,6 +27,10 @@ export default {
       name: 'equipmentSliderSection',
       title: 'Equipment Slider',
     },
+    {
+      name: 'projectsSection',
+      title: 'Projects',
+    },
   ],
   fields: [
     {
@@ -79,6 +83,12 @@ export default {
       name: 'equipmentSliderSection',
       type: 'equipment-slider',
       group: 'equipmentSliderSection',
+    },
+    {
+      title: 'Projects Section',
+      name: 'projectsSection',
+      type: 'projects',
+      group: 'projectsSection',
     },
   ],
 };
