@@ -23,6 +23,10 @@ export default {
       name: 'aidRoadmapSection',
       title: 'Aid Roadmap',
     },
+    {
+      name: 'equipmentSliderSection',
+      title: 'Equipment Slider',
+    },
   ],
   fields: [
     {
@@ -69,6 +73,12 @@ export default {
       name: 'aidRoadmapSection',
       type: 'aid-roadmap',
       group: 'aidRoadmapSection',
+    },
+    {
+      title: 'Equipment Slider Section',
+      name: 'equipmentSliderSection',
+      type: 'equipment-slider',
+      group: 'equipmentSliderSection',
     },
   ],
 };
