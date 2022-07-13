@@ -5,8 +5,8 @@ export default {
   fields: [
     {
       name: 'heading',
-      type: 'typography',
-      title: 'Heading Settings',
+      type: 'string',
+      title: 'Heading',
     },
     {
       title: 'Background Image',
@@ -14,9 +14,4 @@ export default {
       type: 'picture',
     },
   ],
-  preview: {
-    select: {
-      title: 'heading.text',
-    },
-  },
 };
