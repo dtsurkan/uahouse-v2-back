@@ -9,6 +9,11 @@ export default {
       title: 'Title Settings',
     },
     {
+      name: 'suptitle',
+      type: 'typography',
+      title: 'Suptitle Settings',
+    },
+    {
       type: 'array',
       name: 'tabs',
       title: 'Tabs',

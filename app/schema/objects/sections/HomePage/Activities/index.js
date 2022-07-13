@@ -5,8 +5,13 @@ export default {
   fields: [
     {
       name: 'title',
-      type: 'string',
-      title: 'Title',
+      type: 'typography',
+      title: 'Title Settings',
+    },
+    {
+      name: 'suptitle',
+      type: 'typography',
+      title: 'Suptitle Settings',
     },
     {
       title: 'Activities Cards',
