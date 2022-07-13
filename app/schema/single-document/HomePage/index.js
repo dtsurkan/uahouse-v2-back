@@ -31,6 +31,10 @@ export default {
       name: 'projectsSection',
       title: 'Projects',
     },
+    {
+      name: 'statisticsSection',
+      title: 'Statistics',
+    },
   ],
   fields: [
     {
@@ -89,6 +93,12 @@ export default {
       name: 'projectsSection',
       type: 'projects',
       group: 'projectsSection',
+    },
+    {
+      title: 'Statistics Section',
+      name: 'statisticsSection',
+      type: 'statistics',
+      group: 'statisticsSection',
     },
   ],
 };
