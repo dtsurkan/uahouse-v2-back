@@ -13,13 +13,13 @@ export default {
       name: 'href',
       type: 'string',
     },
-    {
-      title: 'Is Prefetch Link?',
-      name: 'isPrefetchLink',
-      description:
-        'You can turn off/turn on prefetching of link. It is better for performance but worse navigate between pages',
-      type: 'boolean',
-      initialValue: true,
-    },
+    // {
+    //   title: 'Is Prefetch Link?',
+    //   name: 'isPrefetchLink',
+    //   description:
+    //     'You can turn off/turn on prefetching of link. It is better for performance but worse navigate between pages',
+    //   type: 'boolean',
+    //   initialValue: true,
+    // },
   ],
 };
