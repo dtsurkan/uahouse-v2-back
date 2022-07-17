@@ -4,6 +4,11 @@ export default {
   type: 'object',
   fields: [
     {
+      title: 'Enable to show section?',
+      name: 'enabled',
+      type: 'boolean',
+    },
+    {
       name: 'title',
       type: 'typography',
       title: 'Title Settings',
