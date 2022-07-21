@@ -4,8 +4,8 @@ export default {
   title: 'Home Page',
   groups: [
     {
-      name: 'introSlider',
-      title: 'Intro Slider',
+      name: 'mainHero',
+      title: 'Main Hero',
     },
     {
       name: 'activitiesSection',
@@ -51,12 +51,11 @@ export default {
       // },
       validation: (Rule) => Rule.required(),
     },
-
     {
-      name: 'introSlider',
-      type: 'intro-slider',
-      title: 'Intro Slider',
-      group: 'introSlider',
+      name: 'heroSection',
+      type: 'main-hero',
+      title: 'Hero',
+      group: 'mainHero',
     },
     {
       title: 'Activities Section',

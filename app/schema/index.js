@@ -7,6 +7,7 @@ import HomePage from './single-document/HomePage';
 import AboutPage from './single-document/AboutPage';
 
 import IntroSlider from './objects/sections/HomePage/IntroSlider';
+import MainHero from './objects/sections/MainHero';
 import Activities from './objects/sections/HomePage/Activities';
 import OurMission from './objects/sections/HomePage/OurMission';
 import OurGoals from './objects/sections/OurGoals';
@@ -38,6 +39,7 @@ export default createSchema({
     /* Your types here! */
     HomePage,
     AboutPage,
+    MainHero,
     IntroSlider,
     Activities,
     AidRoadmap,
