@@ -7,6 +7,10 @@ export default {
       name: 'bannerSection',
       title: 'Banner',
     },
+    {
+      name: 'ourGoalsSection',
+      title: 'Our Goals',
+    },
   ],
   fields: [
     {
@@ -28,6 +32,12 @@ export default {
       type: 'banner',
       title: 'Banner',
       group: 'bannerSection',
+    },
+    {
+      name: 'ourGoalsSection',
+      type: 'our-goals',
+      title: 'Our Goals',
+      group: 'ourGoalsSection',
     },
   ],
 };

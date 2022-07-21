@@ -9,6 +9,7 @@ import AboutPage from './single-document/AboutPage';
 import IntroSlider from './objects/sections/HomePage/IntroSlider';
 import Activities from './objects/sections/HomePage/Activities';
 import OurMission from './objects/sections/HomePage/OurMission';
+import OurGoals from './objects/sections/OurGoals';
 import AidRoadmap from './objects/sections/HomePage/AidRoadmap';
 import EquipmentSlider from './objects/sections/HomePage/EquipmentSlider';
 import Projects from './objects/sections/HomePage/Projects';
@@ -41,6 +42,7 @@ export default createSchema({
     Activities,
     AidRoadmap,
     OurMission,
+    OurGoals,
     EquipmentSlider,
     DonationMethods,
     Banner,
