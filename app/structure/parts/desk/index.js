@@ -13,6 +13,9 @@ export default () =>
               S.listItem()
                 .title('HomePage')
                 .child(S.document().schemaType('home-page').documentId('home-page').title('Home Page')),
+              S.listItem()
+                .title('AboutPage')
+                .child(S.document().schemaType('about-page').documentId('about-page').title('About Page')),
             ]),
         ),
     ]);

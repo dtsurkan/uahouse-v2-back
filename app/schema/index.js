@@ -4,6 +4,7 @@ import createSchema from 'part:@sanity/base/schema-creator';
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 import HomePage from './single-document/HomePage';
+import AboutPage from './single-document/AboutPage';
 
 import IntroSlider from './objects/sections/HomePage/IntroSlider';
 import Activities from './objects/sections/HomePage/Activities';
@@ -12,6 +13,7 @@ import AidRoadmap from './objects/sections/HomePage/AidRoadmap';
 import EquipmentSlider from './objects/sections/HomePage/EquipmentSlider';
 import Projects from './objects/sections/HomePage/Projects';
 import Statistics from './objects/sections/HomePage/Statistics';
+import Banner from './objects/sections/Banner';
 
 import BasicLink from './objects/shared/BasicLink';
 import Picture from './objects/shared/Picture';
@@ -34,12 +36,14 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     HomePage,
+    AboutPage,
     IntroSlider,
     Activities,
     AidRoadmap,
     OurMission,
     EquipmentSlider,
     DonationMethods,
+    Banner,
     Projects,
     Statistics,
     IntroSliderCard,
