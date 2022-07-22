@@ -5,6 +5,7 @@ import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 import HomePage from './single-document/HomePage';
 import AboutPage from './single-document/AboutPage';
+import Project from './documents/Project';
 
 import IntroSlider from './objects/sections/HomePage/IntroSlider';
 import MainHero from './objects/sections/MainHero';
@@ -37,6 +38,7 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
+    Project,
     HomePage,
     AboutPage,
     MainHero,

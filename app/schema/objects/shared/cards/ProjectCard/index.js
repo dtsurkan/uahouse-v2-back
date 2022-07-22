@@ -35,10 +35,10 @@ export default {
         },
       ],
     },
-    {
-      title: 'Link',
-      name: 'link',
-      type: 'basic-link',
-    },
+    // {
+    //   title: 'Link Href',
+    //   name: 'href',
+    //   type: 'string',
+    // },
   ],
 };

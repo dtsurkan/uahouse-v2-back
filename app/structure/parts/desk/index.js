@@ -4,6 +4,7 @@ export default () =>
   S.list()
     .title('Base')
     .items([
+      S.listItem().title('Projects').child(S.documentTypeList('project').title('Project')),
       S.listItem()
         .title('Pages')
         .child(
