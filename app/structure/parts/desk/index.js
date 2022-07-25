@@ -5,6 +5,7 @@ export default () =>
     .title('Base')
     .items([
       S.listItem().title('Projects').child(S.documentTypeList('project').title('Project')),
+      S.listItem().title('Stories').child(S.documentTypeList('story').title('Story')),
       S.listItem()
         .title('Pages')
         .child(
@@ -20,6 +21,11 @@ export default () =>
               S.listItem()
                 .title('ProjectPage')
                 .child(S.document().schemaType('project-page').documentId('project-page').title('Project Page')),
+              S.listItem()
+                .title('OurStoriesPage')
+                .child(
+                  S.document().schemaType('our-stories-page').documentId('our-stories-page').title('Our Stories Page'),
+                ),
             ]),
         ),
     ]);

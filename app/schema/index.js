@@ -7,6 +7,8 @@ import HomePage from './single-document/HomePage';
 import AboutPage from './single-document/AboutPage';
 import ProjectPage from './single-document/ProjectPage';
 import Project from './documents/Project';
+import Story from './documents/Story';
+import OurStoriesPage from './single-document/OurStoriesPage';
 
 import IntroSlider from './objects/sections/IntroSlider';
 import MainHero from './objects/sections/MainHero';
@@ -33,6 +35,7 @@ import StatisticPoint from './objects/shared/StatisticPoint';
 import MemberCard from './objects/shared/cards/MemberCard';
 import MemberBoard from './objects/shared/MemberBoard';
 import Members from './objects/sections/Members';
+import StoryCard from './objects/shared/cards/StoryCard';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -43,6 +46,8 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     Project,
+    Story,
+    OurStoriesPage,
     HomePage,
     AboutPage,
     ProjectPage,
@@ -63,6 +68,7 @@ export default createSchema({
     ActivityCard,
     EquipmentCard,
     ProjectCard,
+    StoryCard,
     StatisticPoint,
     AidRoadmapTab,
     Picture,
