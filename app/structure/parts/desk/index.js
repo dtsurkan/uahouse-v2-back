@@ -17,6 +17,9 @@ export default () =>
               S.listItem()
                 .title('AboutPage')
                 .child(S.document().schemaType('about-page').documentId('about-page').title('About Page')),
+              S.listItem()
+                .title('ProjectPage')
+                .child(S.document().schemaType('project-page').documentId('project-page').title('Project Page')),
             ]),
         ),
     ]);

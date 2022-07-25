@@ -19,5 +19,17 @@ export default {
       name: 'image',
       type: 'picture',
     },
+    {
+      name: 'hasLink',
+      title: 'Has Link?',
+      type: 'boolean',
+      initialValue: false,
+    },
+    {
+      name: 'link',
+      type: 'basic-link',
+      title: 'Basic Link',
+      hidden: ({ parent }) => !parent?.hasLink,
+    },
   ],
 };

@@ -18,11 +18,11 @@ export default {
       type: 'typography',
       title: 'Suptitle Settings',
     },
-    {
-      title: 'Project Cards',
-      name: 'projects',
-      type: 'array',
-      of: [{ type: 'project-card' }],
-    },
+    // {
+    //   title: 'Project Cards',
+    //   name: 'projects',
+    //   type: 'array',
+    //   of: [{ type: 'project-card' }],
+    // },
   ],
 };

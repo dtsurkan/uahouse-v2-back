@@ -1,11 +1,15 @@
 export default {
   type: 'document',
-  name: 'about-page',
-  title: 'About Page',
+  name: 'project-page',
+  title: 'Project Page',
   groups: [
     {
       name: 'heroSection',
       title: 'Hero',
+    },
+    {
+      name: 'bannerSection',
+      title: 'Banner',
     },
     {
       name: 'ourGoalsSection',
@@ -34,10 +38,10 @@ export default {
       group: 'heroSection',
     },
     {
-      name: 'ourGoalsSection',
-      type: 'our-goals',
-      title: 'Our Goals',
-      group: 'ourGoalsSection',
+      name: 'bannerSection',
+      type: 'banner',
+      title: 'Banner',
+      group: 'bannerSection',
     },
   ],
 };
