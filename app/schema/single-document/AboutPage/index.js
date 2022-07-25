@@ -11,6 +11,10 @@ export default {
       name: 'ourGoalsSection',
       title: 'Our Goals',
     },
+    {
+      name: 'membersBoardSection',
+      title: 'Members Boards',
+    },
   ],
   fields: [
     {
@@ -38,6 +42,12 @@ export default {
       type: 'our-goals',
       title: 'Our Goals',
       group: 'ourGoalsSection',
+    },
+    {
+      name: 'membersBoardSection',
+      type: 'members',
+      title: 'Members',
+      group: 'membersBoardSection',
     },
   ],
 };

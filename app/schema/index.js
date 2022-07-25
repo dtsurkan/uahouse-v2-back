@@ -30,6 +30,9 @@ import AidRoadmapTab from './objects/shared/tabs/AidRoadmapTab';
 import EquipmentCard from './objects/shared/cards/EquipmentCard';
 import ProjectCard from './objects/shared/cards/ProjectCard';
 import StatisticPoint from './objects/shared/StatisticPoint';
+import MemberCard from './objects/shared/cards/MemberCard';
+import MemberBoard from './objects/shared/MemberBoard';
+import Members from './objects/sections/Members';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -44,6 +47,7 @@ export default createSchema({
     AboutPage,
     ProjectPage,
     MainHero,
+    Members,
     IntroSlider,
     Activities,
     AidRoadmap,
@@ -52,6 +56,7 @@ export default createSchema({
     EquipmentSlider,
     DonationMethods,
     Banner,
+    MemberBoard,
     Projects,
     Statistics,
     IntroSliderCard,
@@ -64,5 +69,6 @@ export default createSchema({
     Typography,
     BasicLink,
     PortableText,
+    MemberCard,
   ]),
 });
