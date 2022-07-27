@@ -36,6 +36,7 @@ import MemberCard from './objects/shared/cards/MemberCard';
 import MemberBoard from './objects/shared/MemberBoard';
 import Members from './objects/sections/Members';
 import StoryCard from './objects/shared/cards/StoryCard';
+import ImageQuoteBlock from './objects/shared/PortableText/components/ImageQuoteBlock';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -76,5 +77,6 @@ export default createSchema({
     BasicLink,
     PortableText,
     MemberCard,
+    ImageQuoteBlock,
   ]),
 });

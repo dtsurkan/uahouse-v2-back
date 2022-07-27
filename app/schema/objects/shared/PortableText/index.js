@@ -42,5 +42,8 @@ export default {
     {
       type: 'image',
     },
+    {
+      type: 'image-quote-block',
+    },
   ],
 };
