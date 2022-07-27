@@ -9,6 +9,9 @@ import ProjectPage from './single-document/ProjectPage';
 import Project from './documents/Project';
 import Story from './documents/Story';
 import OurStoriesPage from './single-document/OurStoriesPage';
+import ReportsSubscriber from './documents/ReportsSubscriber';
+import UpdatesSubscriber from './documents/UpdatesSubscriber';
+import Partner from './documents/Partner';
 
 import IntroSlider from './objects/sections/IntroSlider';
 import MainHero from './objects/sections/MainHero';
@@ -37,6 +40,7 @@ import MemberBoard from './objects/shared/MemberBoard';
 import Members from './objects/sections/Members';
 import StoryCard from './objects/shared/cards/StoryCard';
 import ImageQuoteBlock from './objects/shared/PortableText/components/ImageQuoteBlock';
+import ResourceDonation from './documents/ResourceDonation';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -48,6 +52,10 @@ export default createSchema({
     /* Your types here! */
     Project,
     Story,
+    ReportsSubscriber,
+    UpdatesSubscriber,
+    Partner,
+    ResourceDonation,
     OurStoriesPage,
     HomePage,
     AboutPage,

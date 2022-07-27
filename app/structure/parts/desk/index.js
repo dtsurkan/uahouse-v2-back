@@ -28,4 +28,22 @@ export default () =>
                 ),
             ]),
         ),
+      S.listItem().title('Partners').child(S.documentTypeList('partner').title('Partner')),
+      S.listItem()
+        .title('Resource Donations')
+        .child(S.documentTypeList('resource-donation').title('Resource Donation')),
+      S.listItem()
+        .title('Subscribers')
+        .child(
+          S.list()
+            .title('Subscribers')
+            .items([
+              S.listItem()
+                .title('Updates Subscribers')
+                .child(S.documentTypeList('updates-subscriber').title('Updates Subscriber')),
+              S.listItem()
+                .title('Reports Subscribers')
+                .child(S.documentTypeList('reports-subscriber').title('Reports Subscriber')),
+            ]),
+        ),
     ]);
