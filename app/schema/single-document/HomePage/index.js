@@ -43,15 +43,6 @@ export default {
       title: 'Title',
     },
     {
-      name: 'slug',
-      type: 'slug',
-      // options: {
-      //   source: 'title',
-      //   maxLength: 96,
-      // },
-      validation: (Rule) => Rule.required(),
-    },
-    {
       name: 'heroSection',
       type: 'main-hero',
       title: 'Hero',

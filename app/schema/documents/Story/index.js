@@ -1,3 +1,5 @@
+import basicSlug from '../../objects/shared/BasicSlug';
+
 export default {
   name: 'story',
   type: 'document',
@@ -8,15 +10,7 @@ export default {
       type: 'string',
       title: 'Title',
     },
-    // {
-    //   name: 'slug',
-    //   type: 'slug',
-    //   options: {
-    //     source: 'title',
-    //     maxLength: 96,
-    //   },
-    //   validation: (Rule) => Rule.required(),
-    // },
+    basicSlug({ source: 'title', group: '' }),
     {
       name: 'settings',
       type: 'story-card',
